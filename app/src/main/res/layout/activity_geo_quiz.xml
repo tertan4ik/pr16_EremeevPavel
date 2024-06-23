@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeoQuizActivity"
+    android:gravity="center"
+    android:background="@drawable/backgr"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textQues0"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        tools:text="@string/qes_text1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/true_button"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonstyle12345"
+            android:text="True" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:id="@+id/false_button"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonstyle12345"
+            android:text="False" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:id="@+id/pastbut"
+            android:layout_width="61dp"
+            android:height="61dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strelkalevo" />
+
+        <Button
+            android:id="@+id/nextbut"
+            android:layout_width="61dp"
+            android:height="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/strelkapravo" />
+
+    </LinearLayout>
+
+</LinearLayout>

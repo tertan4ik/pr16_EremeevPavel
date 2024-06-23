@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Практика 16</string>
+    <string name="qes_text1">Котлин обьектно ориентированный язык?</string>
+    <string name="qes_text2">2+2=6?</string>
+    <string name="qes_text3">Вода закипает при 100 градусах по цельсию?</string>
+    <string name="qes_text4">Нью-Йорк находится в америке?</string>
+    <string name="qes_text5">Гагарин первый полетел в космос?</string>
+    <string name="true_button">Верно</string>
+    <string name="false_button">Неверно</string>
+    <string name="correct_toast">Правильно</string>
+    <string name="incorrect_toast">Не правильно</string>
+    <string name="evil_pastbut">Достигнут минимум вопросов</string>
+    <string name="evil_nextbut">Достигнут максимум вопросов</string>
+</resources>
